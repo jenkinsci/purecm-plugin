@@ -1,0 +1,5 @@
+
+<div>
+  This plugin integrates <a href="http://www.purecm.com">PureCM</a> with Jenkins. Features include checking out
+  a workspace, guaranteed clean builds and scm polling.
+</div>

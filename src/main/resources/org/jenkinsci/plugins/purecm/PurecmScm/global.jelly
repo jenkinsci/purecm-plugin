@@ -1,0 +1,8 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:section title="PureCM">
+    <f:entry title="Command line executable"
+      help="/plugin/purecm-plugin/help-pcmExecutable.html">
+      <f:textbox name="exe" value="${descriptor.getExe()}" default="pcm" checkUrl="'${rootURL}/scm/PurecmScm/checkExe?value='+escape(this.value)"/>
+    </f:entry>
+  </f:section>
+</j:jelly>
